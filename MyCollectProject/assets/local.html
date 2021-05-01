@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3</title>
+<script>
+function click1()
+{
+var param = document.getElementById("hiddenValue").value;
+		alert(param);
+	}
+
+
+function click2()
+{
+	var param1 = document.getElementById("hiddenValue").value;
+		handlerUnKnowByWeb1.openActivity(param1);
+	}
+	
+function click3()
+{
+	var param3 = document.getElementById("hiddenValue3").value;
+		handlerUnKnowByWeb.showToast(param3);
+	}	
+
+</script>
+</head>
+<body>
+<input type="hidden" id="hiddenValue" value="intent:#Intent;component=com.xxoo.mycollect/.activity.WebViewNextActivity;S.key1=value1;S.key2=value2;end" />
+<input type="hidden" id="hiddenValue3" value="信息3" />
+<form>
+    <table  width="350" bgcolor="#ccffcc" style="border-color" border="1">
+    <tr align=center><td colspan="1"><input type="button" value="按钮1" onclick="click1();"/></td></tr>
+    <tr align=center><td colspan="1"><input type="button" value="按钮2" onclick="click2()"/></td></tr>  
+    <tr align=center><td colspan="1"><input type="button" value="按钮3" onclick="click3();"/></td></tr>      
+    </table>
+</form>
+</body>
+</html>

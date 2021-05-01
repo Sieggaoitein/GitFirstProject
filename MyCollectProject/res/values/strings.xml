@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyCollectProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 测试 start -->
+    <string name="btn">按钮</string>
+    <string name="test">这是一个测试</string>
+    <string name="initText">默认文本文字</string>
+    <!-- 测试 end -->
+
+</resources>
