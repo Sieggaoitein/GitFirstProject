@@ -1,7 +1,10 @@
 package com.xxoo.mycollect.activity;
 
+import android.content.ContextWrapper;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -33,18 +36,18 @@ public class ServiceActivity extends BaseActivity {
 
 			@Override
 			public void onClick(View v) {
-
+				TypedArray ta;
 				Intent intent = new Intent(ServiceActivity.this,
 						MyService.class);
 				startService(intent);
 			}
 		});
-		
+
 		btnStop.setOnClickListener(new OnClickListener() {
-			
+
 			@Override
 			public void onClick(View v) {
-				
+
 			}
 		});
 	}

@@ -10,5 +10,6 @@ public class ChangeThemeTestActivity extends BaseActivity {
 	protected void onCreate(Bundle arg0) {
 		super.onCreate(arg0);
 		setContentView(R.layout.activity_change_theme_test);
+		
 	}
 }
